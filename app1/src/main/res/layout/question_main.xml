@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="exam.e8net.com.exam.QuestionActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@mipmap/tiku_daohanglan_bg"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp">
+
+        <ImageView
+            android:id="@+id/question_back"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="18dp"
+            android:src="@mipmap/nav_return_back" />
+
+        <LinearLayout
+            android:id="@+id/question_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_timer" />
+
+            <TextView
+                android:id="@+id/question_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="06:51"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/main_total_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:drawableLeft="@drawable/ic_all"
+            android:gravity="center"
+            android:text="0/0"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/main_right_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="34dp"
+            android:layout_toLeftOf="@+id/main_error_tx"
+            android:background="@drawable/correct_item_bj"
+            android:drawableLeft="@drawable/ic_default_right"
+            android:gravity="center"
+
+            android:paddingBottom="1.5dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="1.5dp"
+            android:text="0"
+            android:textColor="#3c7ef8"
+            android:textSize="9sp" />
+
+
+        <TextView
+            android:id="@+id/main_error_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/error_item_bj"
+            android:drawableLeft="@drawable/ic_default_error"
+            android:gravity="center"
+            android:paddingBottom="1.5dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="1.5dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="9sp" />
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#bfbfbf" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/ll_countdown"
+            android:layout_width="153dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="11dp"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="153dp"
+                android:layout_height="29dp"
+                android:background="@drawable/countdown_bj"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/countdownTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@mipmap/icon_coundown"
+                    android:gravity="center"
+                    android:text="67:00"
+                    android:textColor="@color/bule_tt"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/bule_tt" />
+
+                <TextView
+                    android:id="@+id/theirPapers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="立即交卷"
+                    android:textColor="@color/bule_tt"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

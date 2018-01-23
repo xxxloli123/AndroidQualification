@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/icon_paixu"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="2017-05-23  15:24:56"
+            android:textColor="@color/black_tt3"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/wrongTopic"
+            android:layout_width="73dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="11dp"
+            android:background="@drawable/chapter_icon"
+            android:gravity="center"
+            android:text="回顾错题"
+            android:textColor="@color/bule_tt"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <include layout="@layout/include_dash_line_left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textColor="@color/black_tt"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/gradeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textColor="@color/black_tt2"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="总题数："
+                android:textColor="@color/black_tt2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/rightNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="做对数："
+                android:textColor="@color/black_tt2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/errorNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="做错题："
+                android:textColor="@color/black_tt2"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="总用时："
+                android:textColor="@color/black_tt2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/totalGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="总得分："
+                android:textColor="@color/black_tt2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/correct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="正确率："
+                android:textColor="@color/black_tt2"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/includ_line_left" />
+</LinearLayout>

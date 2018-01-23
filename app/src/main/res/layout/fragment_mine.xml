@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bj"
+    android:orientation="vertical">
+
+    <com.dgg.baselibrary.widget.WaveFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/me_bg">
+
+        <LinearLayout
+            android:id="@+id/personInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin"
+            android:paddingTop="40dp">
+
+            <ImageView
+                android:id="@+id/headImg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/me_img_avatar" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_weight="1"
+                android:text="点击登录"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/editInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/me_biaoqian_gerenziliao_bg"
+                android:drawableLeft="@mipmap/me_bianji"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:text="编辑个人资料"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="40dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.dgg.baselibrary.numberrun.NumberRunningTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/insistDayNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="0"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    app:runWhenChange="true"
+                    app:textType="num" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="坚持天数"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.dgg.baselibrary.numberrun.NumberRunningTextView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/completeNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="0"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    app:runWhenChange="true"
+                    app:textType="num" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="已完成题数"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<me.itangqi.waveloadingview.WaveLoadingView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/waveLoadingView1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--app:wlv_waveColor="@color/bule_tt"-->
+        <!--app:wlv_borderWidth="3dp"-->
+        <!--app:wlv_progressValue="100"-->
+        <!--app:wlv_round_rectangle="false"-->
+        <!--app:wlv_shapeType="rectangle"-->
+        <!--app:wlv_titleCenterSize="15sp"-->
+        <!--app:wlv_titleCenterStrokeWidth="3dp"-->
+        <!--app:wlv_triangle_direction="east"-->
+        <!--app:wlv_waveAmplitude="170" />-->
+
+        <!--<com.dgg.baselibrary.widget.WaveView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="#f00" />-->
+    </com.dgg.baselibrary.widget.WaveFrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@mipmap/me_icon_shoucang"
+            android:gravity="center"
+            android:text="收藏夹"
+            android:textColor="@color/black_tt"
+            android:textSize="11sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#f1f1fa" />
+
+        <TextView
+            android:id="@+id/errorTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@mipmap/me_icon_cuotiben"
+            android:gravity="center"
+            android:text="错题本"
+            android:textColor="@color/black_tt"
+            android:textSize="11sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#f1f1fa" />
+
+        <TextView
+            android:id="@+id/noCompleteTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@mipmap/me_icon_weizuoxiti"
+            android:gravity="center"
+            android:text="未做习题"
+            android:textColor="@color/black_tt"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/results"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/me_list_chengji"
+            android:drawablePadding="10dp"
+            android:text="成绩查询"
+            android:textColor="@color/black_tt"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tiku_img_jump" />
+
+    </LinearLayout>
+
+    <include layout="@layout/includ_line_left" />
+
+    <LinearLayout
+        android:id="@+id/certificate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/me_list_fenxiang"
+            android:drawablePadding="10dp"
+            android:text="分享APP给朋友"
+            android:textColor="@color/black_tt"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tiku_img_jump" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/me_list_xiaoxi"
+            android:drawablePadding="10dp"
+            android:text="消息"
+            android:textColor="@color/black_tt"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tiku_img_jump" />
+
+    </LinearLayout>
+
+    <include layout="@layout/includ_line_left" />
+
+    <LinearLayout
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/me_list_shezhi"
+            android:drawablePadding="10dp"
+            android:text="设置"
+            android:textColor="@color/black_tt"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tiku_img_jump" />
+
+    </LinearLayout>
+
+    <include layout="@layout/includ_line_left" />
+
+
+</LinearLayout>

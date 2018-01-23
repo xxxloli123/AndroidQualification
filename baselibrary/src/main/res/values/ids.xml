@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--切换加载布局-->
+    <item name="id_tag_loading_helper" type="id" />
+    <!--gride 布局 FakerGridView-->
+    <item name="zxt_tag_vh" type="id"></item>
+    <item name="zxt_tag_vdb" type="id"></item>
+</resources>

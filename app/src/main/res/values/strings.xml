@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">顶呱呱学院</string>
+    <string name="no_error_topic">暂无错题</string>
+    <string name="no_collection_topic">暂无收藏</string>
+    <string name="no_complete_topic">暂无未做习题</string>
+</resources>

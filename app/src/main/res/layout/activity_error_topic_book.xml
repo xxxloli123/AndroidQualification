@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_margin="@dimen/margin"
+        android:background="@mipmap/tiku_cuotiben_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/errorTopic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="15dp"
+            android:drawableTop="@mipmap/tiku_img_lianxicuoti"
+            android:gravity="center"
+            android:text="练习所有错题"
+            android:textColor="@color/black_tt3"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_bj"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/errorNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bule_tt"
+                android:textSize="24dp"
+                android:text="0"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="58dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/bule_tt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="15dp"
+                android:gravity="center"
+                android:text="错题数"
+                android:textColor="@color/black_tt3"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/errorTopic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="15dp"
+            android:drawableTop="@mipmap/tiku_img_chakancuoti"
+            android:gravity="center"
+            android:text="查看所有错题"
+            android:textColor="@color/black_tt3"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white" />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="54dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:background="@color/white"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="@dimen/margin"-->
+        <!--android:paddingRight="@dimen/margin">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="答对后自动清除错题"-->
+            <!--android:textColor="@color/black_tt"-->
+            <!--android:textSize="15sp" />-->
+
+        <!--<CheckBox-->
+            <!--android:id="@+id/explain"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:button="@drawable/check_off_on" />-->
+
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:id="@+id/cleanError"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_no_bj"
+        android:gravity="center"
+        android:text="清空我的错题"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</LinearLayout>

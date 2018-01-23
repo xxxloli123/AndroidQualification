@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_picker_preview.xml",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\src\\main\\res\\menu\\bga_pp_menu_photo_picker_preview.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_picker.xml",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\src\\main\\res\\menu\\bga_pp_menu_photo_picker.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_preview.xml",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\src\\main\\res\\menu\\bga_pp_menu_photo_preview.xml"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\btn_selected.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\src\\main\\res\\mipmap-xhdpi\\btn_selected.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\nav_return.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\src\\main\\res\\mipmap-xhdpi\\nav_return.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\btn_normal.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\src\\main\\res\\mipmap-xhdpi\\btn_normal.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\retry.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\src\\main\\res\\mipmap-xhdpi\\retry.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\del_pho.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\src\\main\\res\\mipmap-xhdpi\\del_pho.png"
+    }
+]

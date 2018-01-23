@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bga_pp_size_photo_divider">10px</dimen>//图片选择界面gridview间距
+    <dimen name="bga_pp_size_delete_padding">2px</dimen>
+    <dimen name="bga_pp_size_level1">8px</dimen>
+    <dimen name="bga_pp_size_level2">16px</dimen>
+    <dimen name="bga_pp_size_level3">12dp</dimen>
+
+    <dimen name="bga_pp_textSize_level1">30px</dimen>
+    <dimen name="bga_pp_textSize_level2">32px</dimen>
+</resources>

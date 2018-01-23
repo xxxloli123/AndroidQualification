@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin"
+    android:background="@mipmap/item_bj"
+    android:minHeight="80dp"
+    android:orientation="vertical"
+    android:padding="@dimen/margin">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="全国2017年一建全国2017年一建"
+        android:textColor="@color/black_tt"
+        android:textSize="@dimen/tt_size2" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:minLines="1"
+        android:text="2017-05-21 13:26"
+        android:textColor="@color/black_tt2"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="全国2017年一建全国2017年一建全国2017年一建全国2017年一建全国2017年一建全国2017年一建全国2017年一建全国2017年一建全国2017年一建全国2017年一建"
+        android:textColor="@color/black_tt3"
+        android:textSize="@dimen/tt_size3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/tiku_img_jump"
+        android:minLines="1"
+        android:paddingBottom="@dimen/margin"
+        android:paddingTop="@dimen/margin"
+        android:text="立即查看"
+        android:textColor="@color/black_tt"
+        android:textSize="@dimen/tt_size3" />
+
+</LinearLayout>

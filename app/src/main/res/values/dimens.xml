@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_height">44dp</dimen>
+    <dimen name="margin">11dp</dimen>
+    <dimen name="item_height">42dp</dimen>
+    <dimen name="tt_size1">16sp</dimen>
+    <dimen name="tt_size2">14sp</dimen>
+    <dimen name="tt_size3">11sp</dimen>
+    <dimen name="boldLine">15dp</dimen>
+</resources>

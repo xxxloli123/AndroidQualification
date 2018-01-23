@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bj"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/boldLine"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.dgg.baselibrary.widget.progress.CustomProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/percentage"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/bga_pp_btn_confirm_disabled"
+                app:progressColor="@color/bule_tt"
+                app:roundColor="#e9e9e9"
+                app:roundWidth="7"
+                app:textColor2="@color/bule_tt"
+                app:textIsShow="true"
+                app:textSize2="11sp"
+                app:viewWidth="500" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:text="已完成"
+                android:textColor="@color/bule_tt"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/questionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/tiku_pingu_bg"
+            android:gravity="center"
+            android:maxLength="12"
+            android:paddingBottom="6dp"
+            android:text="题库：安全工程师(A类)"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+
+        <TextView
+            android:id="@+id/advice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"
+            android:text="提升建议：想要通过考试，就继续加油哦"
+            android:textColor="@color/black_tt"
+            android:textSize="11sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我答对"
+                    android:textColor="@color/black_tt"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/correctNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textColor="@color/bule_tt"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/correctPercentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="正确率0%"
+                    android:textColor="@color/black_tt"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我答错"
+                    android:textColor="@color/black_tt"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/errorNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textColor="#fa4f4f"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/errorPercentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="错误率0%"
+                    android:textColor="@color/black_tt"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="总共答题"
+                    android:textColor="@color/black_tt"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/completeNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textColor="#ff7f00"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/completePercentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="完成率0%"
+                    android:textColor="@color/black_tt"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/assess"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/item_height"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_no_bj"
+            android:gravity="center"
+            android:text="重新评估"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/practice"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/item_height"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bj_red"
+            android:gravity="center"
+            android:text="错题练习"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/isTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="亲，你本次练习已结束，本次练习的数据会被重置"
+        android:textColor="@color/black_tt3"
+        android:visibility="gone" />
+</LinearLayout>

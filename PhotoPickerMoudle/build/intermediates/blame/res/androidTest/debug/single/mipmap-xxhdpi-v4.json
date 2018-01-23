@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_arrow_down.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_arrow_down.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_gallery_camera.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_gallery_camera.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_holder_light.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_holder_light.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_holder_dark.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_holder_dark.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\btn_normal.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\btn_normal.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_plus.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_plus.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_delete.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_delete.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_download.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_download.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\nav_return.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\nav_return.png"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\btn_selected.png",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\PhotoPickerMoudle\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\btn_selected.png"
+    }
+]

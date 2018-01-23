@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bj"
+    android:orientation="vertical"
+    tools:context="com.dgg.qualification.ui.mine.EditorNameSexActivity">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:id="@+id/typeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/boldLine"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="姓名"
+                android:textColor="@color/black_tt2"
+                android:textSize="@dimen/tt_size2" />
+
+            <EditText
+                android:id="@+id/nameInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/completeAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_no_bj"
+            android:gravity="center"
+            android:padding="@dimen/margin"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tt_size2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/typeSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/boldLine"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/sexMen"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="男"
+                android:textColor="@color/black_tt2"
+                android:textSize="@dimen/tt_size2" />
+
+            <CheckBox
+                android:id="@+id/cbMen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@drawable/check_select"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <include layout="@layout/includ_line_left" />
+
+        <LinearLayout
+            android:id="@+id/sexMs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="女"
+                android:textColor="@color/black_tt2"
+                android:textSize="@dimen/tt_size2" />
+
+            <CheckBox
+                android:id="@+id/cbMs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@drawable/check_select"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

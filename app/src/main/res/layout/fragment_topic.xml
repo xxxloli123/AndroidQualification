@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dgg.qualification.common.MyNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bj"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp">
+
+                <TextView
+                    android:id="@+id/collection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/tiku_img_shoucang"
+                    android:drawablePadding="6dp"
+                    android:textColor="#f5f5fa"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/questionSelect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@mipmap/nav_qiehuan"
+                    android:gravity="center"
+                    android:text="考试类别"
+                    android:textColor="#f5f5fa"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/region"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="6dp"
+                    android:drawableRight="@mipmap/tiku_img_diqu"
+                    android:text="定位"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.dgg.baselibrary.widget.progress.CustomProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/percentage"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="30dp"
+                    app:progressColor="@color/white"
+                    app:roundColor="@color/white30"
+                    app:roundWidth="30"
+                    app:textColor2="@color/white"
+                    app:textIsShow="true"
+                    app:textSize2="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="100dp"
+                    android:text="已完成"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/tiku_bg"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/mockExamination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="最高分数"
+                        android:textColor="@color/black_tt2"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/gradeMax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="0分"
+                        android:textColor="@color/bule_tt"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@mipmap/tt_round_bj2"
+                        android:drawableRight="@mipmap/tiku_nav_jump2"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="15dp"
+                        android:text="模拟试题"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="70dp"
+                    android:background="@color/line" />
+
+                <LinearLayout
+                    android:id="@+id/chapterPractice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="完成"
+                        android:textColor="@color/black_tt2"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/chapter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="0章"
+                        android:textColor="@color/bule_tt"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@mipmap/tt_round_bj2"
+                        android:drawableRight="@mipmap/tiku_nav_jump2"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="15dp"
+                        android:text="章节练习"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_margin="10dp"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="3dp">
+
+                <TextView
+                    android:id="@+id/errorTopic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="8dp"
+                    android:drawableTop="@mipmap/tiku_icon_cuotiben"
+                    android:gravity="center_horizontal"
+                    android:text="错题本"
+                    android:textColor="@color/black_tt"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/noCompleteTopic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="8dp"
+                    android:drawableTop="@mipmap/tiku_icon_lianxipingu"
+                    android:gravity="center_horizontal"
+                    android:text="未做习题"
+                    android:textColor="@color/black_tt"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/regionAssessment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="8dp"
+                    android:drawableTop="@mipmap/tiku_icon_weizuoxiti"
+                    android:gravity="center_horizontal"
+                    android:text="练习评估"
+                    android:textColor="@color/black_tt"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/countdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/action"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tiku_img_daojishi" />
+
+            <TextView
+                android:id="@+id/countdownNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="0"
+                android:textColor="@color/bule_tt"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="天"
+                android:textColor="@color/black_tt2"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/tiku_img_jump"
+                android:text="更多"
+                android:textColor="@color/black_tt2"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/practice"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_above="@+id/action"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="-20dp"
+            android:background="@mipmap/tt_round_bj"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:drawableRight="@mipmap/tiku_nav_jump"
+                android:text="专题练习"
+                android:textColor="@color/bule_tt"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.dgg.qualification.common.MyNestedScrollView>

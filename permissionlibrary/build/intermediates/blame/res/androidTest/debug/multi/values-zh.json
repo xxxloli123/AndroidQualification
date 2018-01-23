@@ -1,0 +1,273 @@
+[
+    {
+        "outputFile": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 42,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 51,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 51,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 50,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endColumn": 50,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 48,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 201,
+                        "endColumn": 48,
+                        "endOffset": 245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 72,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 250,
+                        "endColumn": 72,
+                        "endOffset": 318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 116,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 323,
+                        "endColumn": 116,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 67,
+                    "endOffset": 503
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 67,
+                        "endOffset": 503
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 508,
+                    "endColumn": 56,
+                    "endOffset": 560
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 508,
+                        "endColumn": 56,
+                        "endOffset": 560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 565,
+                    "endColumn": 48,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 565,
+                        "endColumn": 48,
+                        "endOffset": 609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 56,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 614,
+                        "endColumn": 56,
+                        "endOffset": 666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endColumn": 52,
+                    "endOffset": 719
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endColumn": 52,
+                        "endOffset": 719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 724,
+                    "endColumn": 48,
+                    "endOffset": 768
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 724,
+                        "endColumn": 48,
+                        "endOffset": 768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 773,
+                    "endColumn": 51,
+                    "endOffset": 820
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 773,
+                        "endColumn": 51,
+                        "endOffset": 820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 825,
+                    "endColumn": 52,
+                    "endOffset": 873
+                },
+                "from": {
+                    "file": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\permissionlibrary\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 825,
+                        "endColumn": 52,
+                        "endOffset": 873
+                    }
+                }
+            }
+        ]
+    }
+]

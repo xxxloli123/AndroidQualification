@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="意见反馈"
+                android:textColor="@color/black_tt"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tiku_img_jump" />
+
+        </LinearLayout>
+
+        <include layout="@layout/includ_line_left" />
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/share"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/item_height"-->
+        <!--android:background="@color/white"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="@dimen/margin"-->
+        <!--android:paddingRight="@dimen/margin">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="分享给朋友"-->
+        <!--android:textColor="@color/black_tt"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/tiku_img_jump" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<include layout="@layout/includ_line_left" />-->
+
+        <LinearLayout
+            android:id="@+id/cacheAction"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="清理缓存"
+                android:textColor="@color/black_tt"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/cacheSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black_tt"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tiku_img_jump" />
+
+        </LinearLayout>
+
+        <include layout="@layout/includ_line_left" />
+
+        <LinearLayout
+            android:id="@+id/upVersion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="版本更新"
+                android:textColor="@color/black_tt"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/appBNewVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/me_img_gengxintishi"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/appVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black_tt"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tiku_img_jump" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textColor="@color/color_theme"
+        android:textSize="14sp" />
+</LinearLayout>

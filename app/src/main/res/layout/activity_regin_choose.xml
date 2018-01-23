@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:background="@color/white"
+            android:clickable="false"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/tiku_img_dingwei" />
+
+            <TextView
+                android:id="@+id/locationText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="定位中..."
+                android:textColor="@color/bule_tt"
+                android:textSize="@dimen/tt_size2" />
+
+            <ImageView
+                android:id="@+id/locationAction"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/tiku_img_jump"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginTop="15dp"
+            android:text="热门地区"
+            android:textColor="@color/black_tt3"
+            android:textSize="@dimen/tt_size2" />
+
+        <com.dgg.baselibrary.widget.nestgridview.FakerGridView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/layout_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            app:horizontalSpacing="10dp"
+            app:numColumns="4"
+            app:verticalSpacing="10dp" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ListView
+                android:id="@+id/ll_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:divider="@null"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/tv_dialog"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/area_item_bj"
+                android:gravity="center"
+                android:textColor="#666666"
+                android:textSize="30.0dip"
+                android:visibility="invisible" />
+
+            <com.dgg.baselibrary.widget.sortlist.SideBar
+                android:id="@+id/sidebar"
+                android:layout_width="30.0dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right|center" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

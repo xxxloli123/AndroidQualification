@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidQualification.iml" filepath="$PROJECT_DIR$/AndroidQualification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LRecyclerview_library/LRecyclerview_library.iml" filepath="$PROJECT_DIR$/LRecyclerview_library/LRecyclerview_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoPickerMoudle/PhotoPickerMoudle.iml" filepath="$PROJECT_DIR$/PhotoPickerMoudle/PhotoPickerMoudle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app1/app1.iml" filepath="$PROJECT_DIR$/app1/app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissionlibrary/permissionlibrary.iml" filepath="$PROJECT_DIR$/permissionlibrary/permissionlibrary.iml" />
+    </modules>
+  </component>
+</project>

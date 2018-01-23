@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bj"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin">
+
+        <ImageView
+            android:id="@+id/headImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/me_img_avatar" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_tt"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gradeTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="@color/black_tt2"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:text="78分"
+            android:textColor="@color/bule_tt"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mockImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp"
+        android:src="@mipmap/img_grade_yes" />
+
+    <LinearLayout
+        android:id="@+id/ll_errorTopic"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_cuoti" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看错题"
+                android:textColor="@color/black_tt"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/errorNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="回顾错题"
+                android:textColor="@color/black_tt3"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/include_jump" />
+    </LinearLayout>
+
+    <include layout="@layout/includ_line_left" />
+
+    <LinearLayout
+        android:id="@+id/afreshMock"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_bukao" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重新考试"
+                android:textColor="@color/black_tt"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="成绩不满意，再考一次"
+                android:textColor="@color/black_tt3"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/include_jump" />
+    </LinearLayout>
+
+    <include layout="@layout/includ_line_left" />
+
+    <LinearLayout
+        android:id="@+id/myGrade"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_chengji" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的成绩"
+                android:textColor="@color/black_tt"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/historyGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="历史最好成绩："
+                android:textColor="@color/black_tt3"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/include_jump" />
+    </LinearLayout>
+
+    <include layout="@layout/includ_line_left" />
+</LinearLayout>

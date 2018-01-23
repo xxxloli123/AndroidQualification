@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+        android:text="fuygihilj"
+        android:textColor="@color/black_tt"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:text="fuygihilj"
+        android:textColor="@color/black_tt3"
+        android:textSize="11sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/welcomeOkButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/send_msg_bj"
+        android:paddingBottom="5dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:gravity="center"
+        android:paddingTop="5dip"
+        android:text="立即体验"
+        android:textColor="@color/bule_tt"
+        android:textSize="17sp"
+        android:visibility="gone" />
+</FrameLayout>

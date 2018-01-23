@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dgg.qualification.MainActivity">
+
+    <include
+        layout="@layout/include_title"
+        android:visibility="gone" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/ac_bj" />
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        tl:tl_iconHeight="20dp"
+        tl:tl_iconWidth="20dp"
+        tl:tl_indicator_color="#2C97DE"
+        tl:tl_indicator_height="0dp"
+        tl:tl_textSelectColor="@color/bule_tt"
+        tl:tl_textUnselectColor="@color/black_tt"
+        tl:tl_textsize="12sp"
+        tl:tl_underline_color="#DDDDDD"
+        tl:tl_underline_height="1dp" />
+
+</LinearLayout>

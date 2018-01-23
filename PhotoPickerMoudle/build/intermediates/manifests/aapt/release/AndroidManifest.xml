@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.bingoogolapple.photopicker" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="25"
+        tools:overrideLibrary="org.xutils" />
+
+    <meta-data
+        android:name="design_width"
+        android:value="1080" />
+    <meta-data
+        android:name="design_height"
+        android:value="1920" />
+
+    <application>
+
+        <!-- 图片预览界面 -->
+        <activity
+            android:name="cn.bingoogolapple.photopicker.activity.PhotoPreviewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/BGAPPTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 图片选择界面 -->
+        <activity
+            android:name="cn.bingoogolapple.photopicker.activity.PhotoPickerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/BGAPPTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 图片选择预览界面 -->
+        <activity
+            android:name="cn.bingoogolapple.photopicker.activity.PhotoPickerPreviewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/BGAPPTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>

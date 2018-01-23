@@ -1,0 +1,135 @@
+apply plugin: 'com.android.application'
+apply plugin: 'findbugs'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    defaultConfig {
+        applicationId "com.dgg.qualification"
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion 25
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+//极光推送相关配置
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "5b5a0e9fb13136b289220e06", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL: "boss", //用户渠道统计的渠道名称
+                UMENG_CHANNEL: "uboss"
+        ]
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../key/appkey.jks")
+            storePassword 'password'
+            keyAlias 'dggzz'
+            keyPassword 'password'
+            v2SigningEnabled false
+        }
+        debug {
+            storeFile file("../key/appkey.jks")
+            storePassword 'password'
+            keyAlias 'dggzz'
+            keyPassword 'password'
+            v2SigningEnabled false
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            applicationIdSuffix ".release"
+//            applicationIdSuffix 字段表示：在、不改变你默认的程序ID（包名）的情况下，
+// 为其添加后缀。比如你的包名是 com.gk.app，但你想区分测试包和正式包的情况，这个时候将applicationIdSuffix
+// 设置为.debug，那么你的应用程序对应的包名就变成了com.gk.app.debug
+        }
+        debug {
+            signingConfig signingConfigs.debug
+//            applicationIdSuffix ".debug"
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/BaiduLBS_Android.jar')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':baselibrary')
+    compile project(':app1')
+    compile project(':PhotoPickerMoudle')
+    compile project(':permissionlibrary')
+    compile project(':LRecyclerview_library')
+
+    compile rootProject.ext.dependencies["umeng"]
+    //友盟统计支持
+    // 此处以JPush 3.0.6 版本为例。
+    // 此处以JCore 1.1.3 版本为例。
+    // Stetho core
+    //If you want to add a network helper
+    //主页底部导航栏
+    //首页banner
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'cn.jiguang.sdk:jpush:3.0.6'
+    compile 'cn.jiguang.sdk:jcore:1.1.3'
+    compile 'com.facebook.stetho:stetho:1.5.0'
+    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+//    compile 'com.facebook.stetho:stetho-js-rhino:1.4.2'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.0@aar'
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    testCompile 'junit:junit:4.12'
+//    compile 'com.junolibrary:library-like:1.0.1'
+}
+
+check.dependsOn 'findbugs'
+//def configDir = "${project.rootDir}/src/findbugs"
+def reportsDir = "${project.buildDir}/reports"
+task findbugs(type: FindBugs, dependsOn: "assembleDebug") {
+    ignoreFailures = false
+    effort = "max"
+    reportLevel = "high"
+    excludeFilter = new File("findbugs-filter.xml")//这里是自定义的规则
+    classes = files("${project.rootDir}/app/build/intermediates/classes")
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = false
+        html.enabled = true
+        xml {
+            destination "$reportsDir/findbugs/foreman—findbugs.xml"  //这里是报告产生的路径
+        }
+        html {
+            destination "$reportsDir/findbugs/foreman—findbugs.html"  //这里是报告产生的路径
+        }
+    }
+
+    classpath = files()
+}

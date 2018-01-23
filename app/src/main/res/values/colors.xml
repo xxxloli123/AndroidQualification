@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ac_bj">#f5f5fa</color>
+    <color name="transparent">#00000000</color>
+    <color name="bule_tt">#3c7ef8</color>
+    <color name="white30">#4dffffff</color>
+    <color name="black_tt">#333333</color>
+    <color name="black_tt2">#666666</color>
+    <color name="black_tt3">#999999</color>
+    <color name="line">#f1f1fa</color>
+</resources>

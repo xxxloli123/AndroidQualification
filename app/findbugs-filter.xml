@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Copyright 2015 Vincent Brison.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<FindBugsFilter>
+    <!-- http://stackoverflow.com/questions/7568579/eclipsefindbugs-exclude-filter-files-doesnt-work -->
+
+    <!-- android-support-v4.jar：包过滤 -->
+    <Match>
+        <Package name="~android\.support\.v4.*" />
+    </Match>
+    <Match>
+        <Package name="com.dgg.qualification.ui.main.fragment.*" />
+    </Match>
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.model.api.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.model.db.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.model.income.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.model.login.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.model.mine.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.model.net.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.model.project.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.model.tool.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.app.error.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.app.utils.*" />-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.mvp.ui.widget.popwindow.*" />-->
+    <!--</Match>-->
+
+
+    <!--<Match>-->
+        <!--<Package name="com.dgg.hdforeman.app.config.*" />-->
+
+    <!--</Match>-->
+
+
+    <!--&lt;!&ndash; 类过滤、方法 &ndash;&gt;-->
+    <!--<Match>-->
+        <!--<Class name="com.dgg.hdforeman.mvp.ui.tool.UmengAnalytics" />-->
+        <!--&lt;!&ndash;<Method name="getMusicName" />&ndash;&gt;-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Class name="com.dgg.hdforeman.mvp.ui.project.activity.ProjectMessureActivity" />-->
+        <!--&lt;!&ndash;<Method name="getMusicName" />&ndash;&gt;-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Class name="com.dgg.hdforeman.mvp.ui.widget.BaseImageView" />-->
+        <!--&lt;!&ndash;<Method name="getMusicName" />&ndash;&gt;-->
+    <!--</Match>-->
+
+
+    <!--<Match>-->
+        <!--<Class name="com.dgg.hdforeman.mvp.presenter.project.ProjectMessurePresenter" />-->
+        <!--&lt;!&ndash;<Method name="getMusicName" />&ndash;&gt;-->
+    <!--</Match>-->
+    <!--<Match>-->
+        <!--<Class name="com.dgg.hdforeman.mvp.ui.project.activity.ProjectWaitToStartDetailActivity" />-->
+        <!--&lt;!&ndash;<Method name="getMusicName" />&ndash;&gt;-->
+    <!--</Match>-->
+
+
+    <Match>
+        <Class name="~.*\.R\$.*" />
+    </Match>
+    <Match>
+        <Class name="~.*\.Manifest\$.*" />
+    </Match>
+    <!-- All bugs in test classes, except for JUnit-specific bugs -->
+    <Match>
+        <Class name="~.*\.*Test" />
+        <Not>
+            <Bug code="IJU" />
+        </Not>
+    </Match>
+
+
+</FindBugsFilter>

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\576e5e46a2486eb9ca9b8670bbb0d377a23edaad\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\floating_action_button_hide.xml",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\src\\main\\res\\anim\\floating_action_button_hide.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\576e5e46a2486eb9ca9b8670bbb0d377a23edaad\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\576e5e46a2486eb9ca9b8670bbb0d377a23edaad\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\576e5e46a2486eb9ca9b8670bbb0d377a23edaad\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\576e5e46a2486eb9ca9b8670bbb0d377a23edaad\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\floating_action_button_show.xml",
+        "source": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\src\\main\\res\\anim\\floating_action_button_show.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\576e5e46a2486eb9ca9b8670bbb0d377a23edaad\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\android\\dome\\AndroidQualification\\AndroidQualification\\LRecyclerview_library\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "X:\\Users\\xxxloli\\.android\\build-cache\\6fed511a908a466646741aa821919fa72c5ad99b\\output\\res\\anim\\abc_slide_in_top.xml"
+    }
+]

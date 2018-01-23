@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\android\dome\AndroidQualification\AndroidQualification\permissionlibrary\src\main\assets"/><source path="E:\android\dome\AndroidQualification\AndroidQualification\permissionlibrary\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\android\dome\AndroidQualification\AndroidQualification\permissionlibrary\src\release\assets"/></dataSet></merger>
