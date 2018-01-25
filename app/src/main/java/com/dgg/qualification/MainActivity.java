@@ -96,6 +96,7 @@ public class MainActivity extends KtBaseActivity {
         mFragments.add(new MineFragment());
         TabFrgmentAdapter mAdapter = new TabFrgmentAdapter(getSupportFragmentManager(), mFragments);
         page.setAdapter(mAdapter);
+        String s;
         page.setOffscreenPageLimit(3);
         tab.setCurrentTab(page.getCurrentItem());
         tab.setOnTabSelectListener(new OnTabSelectListener() {
